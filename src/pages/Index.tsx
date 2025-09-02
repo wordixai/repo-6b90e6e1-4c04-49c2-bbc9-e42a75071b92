@@ -91,8 +91,8 @@ const Index = () => {
                   <div className="text-gray-500"># Initialize agent with memory</div>
                   <div><span className="text-blue-400">agent</span> = <span className="text-yellow-400">Agent</span>(<span className="text-green-400">"my-agent"</span>)</div>
                   <div className="text-gray-500"># Add tools and deploy</div>
-                  <div className="text-blue-400">agent</div><span className="text-white">.</span><span className="text-yellow-400">add_tool</span>(<span className="text-green-400">"web_search"</span>)</div>
-                  <div className="text-blue-400">agent</div><span className="text-white">.</span><span className="text-yellow-400">deploy</span>()</div>
+                  <div><span className="text-blue-400">agent</span><span className="text-white">.</span><span className="text-yellow-400">add_tool</span>(<span className="text-green-400">"web_search"</span>)</div>
+                  <div><span className="text-blue-400">agent</span><span className="text-white">.</span><span className="text-yellow-400">deploy</span>()</div>
                 </div>
               </div>
             </div>
@@ -205,11 +205,11 @@ const Index = () => {
                       <span className="text-gray-400 ml-4">python</span>
                     </div>
                     <div className="p-6 text-left font-mono text-sm space-y-1">
-                      <div><span className="text-gray-500">>>> </span><span className="text-blue-400">xpander_sdk import</span> <span className="text-yellow-400">Agent</span>, <span className="text-yellow-400">Task</span>, <span className="text-yellow-400">State</span>, <span className="text-yellow-400">memory</span></div>
-                      <div><span className="text-gray-500">>>> </span><span className="text-blue-400">agent</span>.<span className="text-yellow-400">Agent</span> <span className="text-yellow-400">import</span> <span className="text-green-400">Agent</span></div>
+                      <div><span className="text-gray-500">{'>>>'} </span><span className="text-blue-400">xpander_sdk import</span> <span className="text-yellow-400">Agent</span>, <span className="text-yellow-400">Task</span>, <span className="text-yellow-400">State</span>, <span className="text-yellow-400">memory</span></div>
+                      <div><span className="text-gray-500">{'>>>'} </span><span className="text-blue-400">agent</span>.<span className="text-yellow-400">Agent</span> <span className="text-yellow-400">import</span> <span className="text-green-400">Agent</span></div>
                       <div className="text-gray-500"># Load your agent</div>
-                      <div><span className="text-blue-400">agent</span> = <span className="text-yellow-400">Agent</span>(<span className="text-green-400">"local.Task: Backlog, on_task</span>)</div>
-                      <div className="text-gray-500"># Sartful agent, save infrastructure overhead</div>
+                      <div><span className="text-blue-400">agent</span> = <span className="text-yellow-400">Agent</span>(<span className="text-green-400">"local.Task: Backlog, on_task"</span>)</div>
+                      <div className="text-gray-500"># Startful agent, save infrastructure overhead</div>
                       <div><span className="text-blue-400">hot_task</span></div>
                       <div><span className="text-blue-400">backend</span> = <span className="text-yellow-400">system_prompt</span></div>
                       <div><span className="text-blue-400">backend</span>(<span className="text-green-400">"taskStatus"</span>, <span className="text-green-400">result</span>)</div>
